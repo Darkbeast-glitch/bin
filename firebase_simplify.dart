@@ -34,7 +34,7 @@ class FirebaseSetup {
       // Add more services as needed
     ];
 
-    print('Select Firebase services to add(Installing all is recommended):');
+    print('Select Firebase services to add (Installing all is recommended):');
     for (int i = 0; i < services.length; i++) {
       print('${i + 1}. ${services[i]['description']}');
     }
